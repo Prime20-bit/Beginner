@@ -1,0 +1,65 @@
+/* html{
+				background-color: darkcyan;
+				font-size: 17;
+			}
+			.pig{
+				color: darkred;
+				font-family: Arial;
+			}
+			b{
+				color: blue;
+			} */
+
+			body{
+				background-color: #6abadeba;
+				font-family: Arial;
+			}
+			.login{
+				width: 382px;
+				overflow: hidden;
+				margin: auto;
+				padding: 80px;
+				background: #23463f;
+				border-radius: 15px;
+			}
+			h2{
+				text-align: center;
+				color: #277582;
+				padding: 20px;
+			}
+			label{
+				color: #08ffd1;
+				font-size: 17px;
+			}
+			#Uname{
+				width: 400px;
+				height: 30px;
+				border: none;
+				border-radius: 3px;
+				padding-left: 8px;
+
+			};
+			#Pass{
+				width: 400px;
+				height: 30px;
+				border: none;
+				border-radius: 3px;
+				padding-left: 8px;
+			};
+			#log{
+				width: 400px;
+				height: 30px;
+				border: none;
+				border-radius: 100px;
+				color: blue;
+				cursor: pointer;
+			}
+
+			span{
+				color: white;
+				font-size: 17px;
+			}
+			a{
+				float: right;
+				background-color: grey;
+			}

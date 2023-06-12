@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>
+			Sign up
+		</title>
+		<style type="text/css">
+		body{
+			background-color: purple;
+			font-family: Arial;
+			padding-top: 100px;
+		}	
+		.endure{
+			width: 400px;
+			background: white;
+			margin: auto;
+			overflow: hidden;
+			padding: 10px;
+		}
+		#First{
+			width: 350px;
+			height: 20px;
+		}
+		#Middle{
+			width: 350px;
+			height: 20px;
+		}
+		#Surname{
+			width: 350px;
+			height: 20px;
+		}
+		#D.O.B{
+			width: 350px;
+			height: 20px;
+		}
+		#Email{
+			width: 350px;
+			height: 20px;
+		}
+		#pass{
+			width: 350px;
+			height: 20px;
+		}
+		#Sign{
+			width: 200px;
+			height: 30px;
+		}
+		#Confirm{
+			width: 350px;
+			height: 20px;
+		}
+		#signin{
+			padding-left: 10px;
+		}
+		</style>
+	</head>
+	<script type="text/javascript" lang="Javascript" src="js/pass.js"></script>
+	<body>
+		<div class="endure"><h2 align="center">Sign up</h2>
+			<form action="signup.php" method="get" id="signin">
+		<label>First name:</label>
+		<input type="text" name="First" id="First" required="required">
+		<br>
+		<br>
+		<label>Middle name</label>
+		<input type="text" name="Middle" id="Middle">
+		<br>
+		<br>
+		<label>Surname
+		</label>
+		<input type="text" name="Surname" id="Surname" required="required">
+		<br><br>
+		<label>Date Of Birth</label>
+		<input type="date" name="D.O.B" id="D.O.B" required="required">
+		<br>
+		<br>
+		<label>Email Address</label>
+		<input type="email" name="Email" id="Email" required="required">
+		<br>
+		<br>
+		<label>Password</label>
+		<input type="password" name="Pass" id="Pass" required>
+		<br>
+		<br>
+		<label>Confirm Password</label>
+		<input type="password" name="Pass" id="Confirm" required>
+		<br>
+		<br>
+		<p align="center"><input type="submit" value="Sign up" id="Sign"></p>
+	</form>
+</div>
+	</body>
+</html>

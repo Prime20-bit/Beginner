@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Sample</title>
+		<style type="text/css">
+			body{
+				font-family: Arial;
+				background-image: url('samad pics/3.jpg');
+			}
+			.pig{
+				background: darkslateblue;
+				width: 400px;
+				overflow: hidden;
+				margin: auto;
+				padding: 80px;
+				border-radius: 15px;
+			}
+			h2{
+			text-align: center;	
+			padding: 20px;
+			color: orangered;
+			}
+			#Uname{
+				width: 400px;
+				height: 30px;
+				border: none;
+				padding-left: 8px;
+				border-radius: 10px;
+			}
+			#Pass{
+				width: 400px;
+				height: 30px;
+				border: none;
+				border-radius: 10px;
+				padding-left: 8px;
+			}
+			#Log{
+				width: 300px;
+				height: 30px;
+				background-color: pale blue;
+				border-radius: 5px;
+				border: none;
+				padding-left: 50px;
+				padding-right: 50px;
+				cursor: pointer;
+			}
+			p{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h2>Login page</h2>
+		<div class="pig">
+			<form action="login.php" method="get" id="login">
+				<label><b>Username:</b></label>
+				<input type="text" name="Uname" id="Uname" placeholder="Username">
+				<br><br>
+				<label><b>Password:</b></label>
+				<input type="password" name="Pass" id="Pass" placeholder="Password" required="required">
+				<p>
+				<input type="submit" id="Log" value="Log in here" align="middle"></p>
+				<br>
+				<br>
+				<input type="checkbox" id="check">
+				<span>Remember me</span>
+				<br>
+				<br>
+				Forgot <a href="£">Password</a>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Simple interface</title>
+		<style type="text/css">
+			body{
+				background-color: #7ba58e;
+				font-family: Arial;
+				display: block;
+				margin: auto;
+			}
+			.bread{
+				background-color: rgb(96, 99, 59);
+				margin: auto;
+			}
+			.dog{
+				margin: auto;
+				padding-left: 20px;
+				font-family: Algerian;
+				font-size: 30;
+				color: green;
+				padding-right: 100mm;
+			}
+			.pig{
+				margin: auto;
+			}
+			.bed{
+				text-decoration: none;
+				color: red;
+				transition-property: text-decoration;
+			}
+			.bed:hover{
+				text-decoration: underline;
+				text-decoration-color: red;
+			}
+			.get{
+				border: 2px solid red;
+				transition: border-width 0.2s linear ;
+
+			}
+			.get:hover{
+				border-width: 5px;
+			}
+			.text{
+				width: 400px;
+				background: rgb(104, 48, 28);
+				border-radius: 15px;
+				margin: auto;
+				overflow: hidden;
+				padding: 40px;
+
+
+			}
+			#Uname{
+				width: 400;
+				height: 30;
+				border: none;
+				border-radius: 10px;
+				padding-left: 8px;
+			}
+			#pass{
+				width: 400;
+				height: 30;
+				border: none;
+				border-radius: 10px;
+				padding-left: 8px;
+			}
+			#login{
+				width: 200;
+				height: 35;
+				border: none;
+				cursor: pointer;
+				border-radius: 10px;
+			}
+			select{
+				width: 200px;
+				height: 30px;
+			}
+			.pride{
+				font-family: arial;
+				font-size: 20px;
+			}
+		</style>
+	</head>
+	<script type="text/javascript" lang="Javascript" src="js/Interface2.js"></script>
+	<body>
+		<p class="bread">
+			<br><span class="dog">Landing</span>
+		<span class="pig">
+			<a href="kunle.html" class="bed">Home</a>
+			<a href="Sample.html" class="bed">Features</a>
+			<a href="first practical.html" class="bed">Reviews</a>
+			<a href="Olakunle.html" class="bed">Pricing</a>
+			<a href="ola.html" class="bed">FAQ</a>
+			<a href="Sample.html" class="get">Get Started</a>
+		</span>
+		<br>
+		<br></p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="text"><p align="center"><b class="pride">Login Now</b></p>
+	<form action="login.php" method="get" id="log">
+		<label><b>Username:</b></label>
+		<input type="text" name="Uname" id="Uname" placeholder="Username">
+		<br><br>
+		<label><b>Password:</b></label>
+		<input type="text" name="Pass" id="Pass" placeholder="Password">
+		<br>
+		<p align="center"><input type="submit" value="Log in" id="login" ></p>
+		<input type="checkbox" value="checked">
+		<span>Remember me</span>
+		<br>
+		<br>
+		Forget <a href="£">Password</a>
+	</form>
+</div>
+	</body>
+</html>
